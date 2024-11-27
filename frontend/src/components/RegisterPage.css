@@ -1,0 +1,79 @@
+/* Estilo base */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  /* Container principal */
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4caf50, #81c784);
+  }
+  
+  /* Caixa do formulário */
+  .register-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Título */
+  .register-title {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Formulário */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Campos de entrada */
+  .register-input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .register-input:focus {
+    border-color: #4caf50;
+  }
+  
+  /* Botão de registrar */
+  .register-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-button:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Mensagem de status */
+  .register-message {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+  }
+  

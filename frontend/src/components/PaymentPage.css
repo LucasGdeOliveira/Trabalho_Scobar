@@ -1,0 +1,79 @@
+/* PaymentPage.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #333;
+  }
+  
+  .payment-container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .payment-title {
+    text-align: center;
+    color: #2575fc;
+  }
+  
+  .input-group,
+  .cart-summary,
+  .payment-options,
+  .transaction-status {
+    margin: 20px 0;
+  }
+  
+  .payment-input {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .payment-button {
+    background-color: #2575fc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-button:hover {
+    background-color: #1b5bdb;
+  }
+  
+  .cart-items li {
+    margin: 5px 0;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    color: #2575fc;
+  }
+  
+  .transaction-details p {
+    margin: 5px 0;
+  }
+  
+  .message {
+    text-align: center;
+    color: red;
+  }
+  
+  .loading-text {
+    text-align: center;
+  }
+  
+  .empty-cart {
+    text-align: center;
+    color: #999;
+  }
+  
